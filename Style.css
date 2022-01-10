@@ -1,11 +1,11 @@
 *{
-    margin: 100;
-    padding: 1000;
+    margin: 150;
+    padding: 200;
     box-sizing: border-box;
 }
 body{
-    height: auto;
-    width: auto;
+    min-height: 150px;
+    min-width: 100 ;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -18,14 +18,14 @@ body{
     opacity: 0.99;
     background-size: 50%;
     overflow: hidden;
-    padding: 200px 0;
+    padding: 150px 0;
 }
 .inner-section{
     width: 55%;
     float: right;
     opacity: 1;
     background-color: #5b8df8;
-    padding: 100px;
+    padding: 10px;
     box-shadow: 13px 12px 8px rgba(0,0,0,0.3);
 }
 .inner-section h1{
