@@ -1,0 +1,90 @@
+*{
+    margin: 100;
+    padding: 1000;
+    box-sizing: border-box;
+}
+body{
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(Blue.jpeg) no-repeat left;
+    opacity: 0.95;
+}
+
+.about{
+    background: url(work.jpg) no-repeat left;
+    opacity: 0.99;
+    background-size: 50%;
+    overflow: hidden;
+    padding: 200px 0;
+}
+.inner-section{
+    width: 55%;
+    float: right;
+    opacity: 1;
+    background-color: #5b8df8;
+    padding: 100px;
+    box-shadow: 13px 12px 8px rgba(0,0,0,0.3);
+}
+.inner-section h1{
+    margin-bottom: 30px;
+    font-size: 25px;
+    font-weight: 900;
+}
+.text{
+    font-size: 14.2px;
+    color: #181717;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+.skills button{ 
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 2px;
+    border: none;
+    border-radius: 20px;
+    padding: 8px;
+    width: 200px;
+    background-color: #00999c;
+    color: white;
+    cursor: pointer;
+}
+.skills button:hover{
+    transition: 1s;
+    background-color: #ecf5f5;
+    color: #00999c;
+}
+@media screen and (max-width:1200px){
+    .inner-section{
+        padding: 80px;
+    }
+}
+@media screen and (max-width:1000px){
+    .about{
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+    .inner-section{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .about{
+        padding: 0;
+    }
+    .inner-section{
+        padding: 60px;
+    }
+    .skills button{
+        font-size: 19px;
+        padding: 5px;
+        width: 160px;
+    }
+}
+.link{
+    color: azure;
+}
